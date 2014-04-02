@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boavinda"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="@string/selecione" />
+    
+    <Button 
+        android:id="@+id/btAdicionar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/adicionar_local"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        />
+    
+    <Button 
+        android:id="@+id/btAlterar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/alterar_local"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        />
+    
+    <Button 
+        android:id="@+id/btExcluir"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/excluir_local"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        />
+    
+    <Button 
+        android:id="@+id/btProcurar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/procurar_local"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        />
+    
+    <Button 
+        android:id="@+id/btListar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/listar_locais"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        />
+    <Button 
+        android:id="@+id/btNavegacao"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/navegacao"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        />
+    <Button 
+        android:id="@+id/btDescricao"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/descricao"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        />
+    
+    <ImageButton 
+        android:id="@+id/btInteracao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/interacao_inativa"
+        android:contentDescription="@string/interacao"
+        android:layout_gravity="left"
+        />
+
+</LinearLayout>

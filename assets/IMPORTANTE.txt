@@ -1,4 +1,0 @@
-------- IMPORTANTE ------------
-
-Quando for regravar o som inicial de uma tela, como "fale a opção desejada", falar primeiro, por exemplo, para a tela de
-adição "Tela de adição, fale a opção desejada" para o deficiente ter referência de onde está.

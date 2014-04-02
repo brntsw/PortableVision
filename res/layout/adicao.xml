@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adicionar_local"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_gravity="center"
+        />
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_local"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <EditText 
+        android:id="@+id/txtNomeLocal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_nome_local"
+        android:ems="10"
+        />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/endereco"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txtEndereco"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_endereco"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cep"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txtCep"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_cep"
+        android:ems="10" />
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="horizontal"
+    	android:layout_marginTop="120dp">
+        	<Button 
+        	    android:id="@+id/btVoltar"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:text="@string/voltar"
+        	    />
+        	<Button 
+        	    android:id="@+id/btAdicionar"
+        	    android:layout_width="140dp"
+        	    android:layout_height="wrap_content"
+        	    android:text="@string/adicionar"
+        	    android:layout_marginLeft="100dp"
+        	    />
+    </LinearLayout>
+
+</LinearLayout>
